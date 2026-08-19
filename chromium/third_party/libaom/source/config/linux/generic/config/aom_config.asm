@@ -1,5 +1,5 @@
 ;
-; Copyright (c) 2024, Alliance for Open Media. All rights reserved
+; Copyright (c) 2026, Alliance for Open Media. All rights reserved
 ;
 ; This source code is subject to the terms of the BSD 2 Clause License and
 ; the Alliance for Open Media Patent License 1.0. If the BSD 2 Clause License
@@ -51,7 +51,8 @@ CONFIG_OPTICAL_FLOW_API equ 0
 CONFIG_OS_SUPPORT equ 1
 CONFIG_OUTPUT_FRAME_SIZE equ 0
 CONFIG_PARTITION_SEARCH_ORDER equ 0
-CONFIG_PIC equ 1
+CONFIG_PIC equ 0
+CONFIG_QUANT_MATRIX equ 1
 CONFIG_RATECTRL_LOG equ 0
 CONFIG_RD_COMMAND equ 0
 CONFIG_RD_DEBUG equ 0
@@ -87,6 +88,7 @@ HAVE_SSE4_1 equ 0
 HAVE_SSE4_2 equ 0
 HAVE_SSSE3 equ 0
 HAVE_SVE equ 0
+HAVE_SVE2 equ 0
 HAVE_UNISTD_H equ 1
 HAVE_VSX equ 0
 HAVE_WXWIDGETS equ 0

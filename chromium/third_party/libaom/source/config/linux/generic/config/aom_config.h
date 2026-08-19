@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024, Alliance for Open Media. All rights reserved
+ * Copyright (c) 2026, Alliance for Open Media. All rights reserved
  *
  * This source code is subject to the terms of the BSD 2 Clause License and
  * the Alliance for Open Media Patent License 1.0. If the BSD 2 Clause License
@@ -53,7 +53,8 @@
 #define CONFIG_OS_SUPPORT 1
 #define CONFIG_OUTPUT_FRAME_SIZE 0
 #define CONFIG_PARTITION_SEARCH_ORDER 0
-#define CONFIG_PIC 1
+#define CONFIG_PIC 0
+#define CONFIG_QUANT_MATRIX 1
 #define CONFIG_RATECTRL_LOG 0
 #define CONFIG_RD_COMMAND 0
 #define CONFIG_RD_DEBUG 0
@@ -89,6 +90,7 @@
 #define HAVE_SSE4_2 0
 #define HAVE_SSSE3 0
 #define HAVE_SVE 0
+#define HAVE_SVE2 0
 #define HAVE_UNISTD_H 1
 #define HAVE_VSX 0
 #define HAVE_WXWIDGETS 0
